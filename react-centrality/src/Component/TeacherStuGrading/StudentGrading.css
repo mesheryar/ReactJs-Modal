@@ -1,0 +1,286 @@
+.StudentHead h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #3C3C3C;
+}
+
+.StudentGrading-MainBody {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.StudentGrading-MainBody img {
+    width: 102px;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.Student-para {
+    margin-bottom: 0;
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.StudentGrading-Name h4 {
+    color: #3C3C3C;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.StudentGrading-All h5 {
+    margin-top: 20px;
+    color: #434343;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.StudentGrading-All h5 span {
+    color: #434343;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.StudentGrading-All h6 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #434343;
+    margin-top: 11px;
+}
+.CustomDateInput::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.CustomDateInput{
+    width: 262px !important;
+}
+.CustomTimeInput::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+  .CustomTimeInput{
+    width: 262px !important;
+  }
+.StudentGrading-All h6 span {
+    font-weight: 600;
+    font-size: 20px;
+    color: #434343;
+}
+
+.StudentGrading-Select {
+    margin-top: 21px;
+    box-shadow: none !important;
+}
+
+.StudentGrading-Name label {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.StudentGrading-input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    background: #FFF;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.StudentGrading-input:focus {
+    border: 1px solid #0097efb9;
+}
+
+.StudentGrading-textarea {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    background: #FFF;
+    padding-left: 12px;
+    padding-top: 5px;
+    outline: none;
+}
+
+.StudentGrading-textarea:focus {
+    border: 1px solid #0097efb9;
+}
+
+.StudentGrading-Name input::placeholder {
+    color: #AAA;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.StudentGrading-Name textarea::placeholder {
+    color: #AAA;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.StudentGrading-twoInputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.StudentGrading-twoInputs input {
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.StudentGrading-twoInputs input:focus {
+    border: 1px solid #0097efb9;
+}
+
+.StudentGrading-twoInputs label {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555555;
+    margin-top: 10px;
+
+}
+
+.StudentGrading-Upload {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.StudentGrading-Upload p {
+    margin-bottom: 0px;
+}
+
+.StudentGrading-Up-child1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    height: 40px;
+    width: 48%;
+    padding-left: 10px;
+}
+.StudentGrading-Up-child1 p{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.StudentGrading-Up-child1 svg{
+    cursor: pointer;
+}
+.StudentGrading-Up-child1 h6 {
+    color: #AAA;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.StudentGrading-Up-child2 input {
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    width: 100%;
+}
+.StudentGrading-button {
+    display: flex;
+    align-items: center;
+    justify-content:end ;
+    margin-top: 16px;
+}
+.StudentGrading-button button{
+    padding:8px 24px;
+    border: none;
+    background-color: #00afef;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.StudentGrading-switch{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    margin-top: 20px;
+}
+.StudentGrading-switch label{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000B2;
+    margin-top: 1px;
+}
+
+@media (max-width:991px) {
+    .StudentGrading-MainBody {
+        display: flex;
+        gap: 20px;
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .CustomTimeInput {
+        width: 220px !important;
+    }
+    .CustomDateInput {
+        width: 220px !important;
+    }
+    .StudentGrading-Name h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .Student-para  {
+        font-size: 14px;
+        text-align: center;
+    }
+    .StudentGrading-All h5 span {
+        font-size: 17px;
+    }
+    .StudentGrading-All h5 {
+        font-size: 15px;
+    }
+    .StudentGrading-All h6 {
+        font-size: 15px;
+    }
+    .StudentGrading-All h6 span {
+        font-size: 17px;
+    }
+    .StudentGrading-Name label {
+        font-size: 16px;
+    }
+    .StudentGrading-Up-child1 p {
+        font-size: 13px;
+    }
+    .StudentGrading-Up-child1 {
+        width: 56%;
+    }
+    .StudentHead h2 {
+        font-size: 24px;
+    }
+    .StudentGrading-switch label {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:575px) {
+    .CustomTimeInput {
+        width: 232px !important;
+    }
+    .CustomDateInput {
+        width: 265px !important;
+    }
+}
